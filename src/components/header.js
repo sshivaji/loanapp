@@ -13,7 +13,7 @@ class Header extends Component {
             <Navbar.Header>
               <Navbar.Brand>
                 <Link to="/">
-                  <img src="../images/chl_logo.jpg" height="100%" alt="" />
+                  <img src="../images/mortgage_image.jpg" height="100%" alt="" />
                 </Link>
               </Navbar.Brand>
               <Navbar.Toggle />

@@ -40,7 +40,7 @@ class FormSignin extends Component {
       <div className="container pdTop50">
         <div className="form-signin-layout">
           <div className="form-layout-continer">
-            <h1 className="tag-line">CHL Loan Application</h1>
+            <h1 className="tag-line">Loan Application</h1>
             <form
               onSubmit={handleSubmit(this.loginAccount.bind(this))}
               className="form-signin"
