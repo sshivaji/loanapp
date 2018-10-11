@@ -136,7 +136,7 @@ class Lessons extends React.Component {
                     <td>{`Portfolio ${data.value} (${data.text})`}</td>
 
                       <td>{data.score}</td>
-                    
+
                   </tr>
                 ))}
               </tbody>
