@@ -1,6 +1,6 @@
 // base url
 // const baseUrl = "https://narrow-cymbal.glitch.me";
-const baseUrl = "https://db.firstmovechess.org";
+const baseUrl = "http://chl.autonomiq.ai:7777";
 // const baseUrl = "http://localhost:7777";
 
 function postData(url, data) {
