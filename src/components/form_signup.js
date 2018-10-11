@@ -148,7 +148,7 @@ class FormSignup extends Component {
           <div className="form-layout-continer">
             <form className="form-signup" onSubmit={this.handleSubmit}>
               <h3 className="form-signup-heading">
-                  Sign up now to learn chess!
+                  Sign up now for better loans!
               </h3>
               <label htmlFor="firstName" className="sr-only">
                 First Name
