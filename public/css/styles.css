@@ -1,0 +1,207 @@
+
+
+* {
+    font-size: 15px;
+    /* letter-spacing: 1px; */
+    word-spacing: .1em;
+    box-sizing: border-box;
+}
+body {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #f6f6f6;
+}
+
+
+
+  .navbar-brand>img {
+    display: block;
+    position: absolute;
+    top:0; 
+}
+
+  .nav-color {
+    background-color: white;
+    -moz-box-shadow:  0 1px 4px 0 rgba(78, 74, 74, 0.5);
+    -webkit-box-shadow: 0 1px 4px 0 rgba(78, 74, 74, 0.5);
+    box-shadow:  0 1px 4px 0 rgba(78, 74, 74, 0.5);
+    
+}
+
+
+.form-signin-layout, .form-signup-layout {
+  background-image: url("https://firstmovechess.org/wp-content/uploads/2017/07/HOME-HERO-v2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 50px;
+  z-index: 0;
+}
+
+.form-layout-continer {
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 100%;
+    padding-top: 50px;
+    color: #ffffff;
+    padding-bottom: 8%;
+}
+
+.form-signin-layout .tag-line {
+    text-align: center;
+    font-size: 42px;
+    margin-bottom: 40px;
+}
+
+.pdTop50 {
+    padding-top: 50px;
+  }
+  
+
+
+.form-signin-layout .signin-btn, .form-signup-layout .signup-btn {
+    color: #fefefe !important;
+    background-color: #E08C0F !important;
+    padding: 0.9rem 1rem !important;
+    border-radius: 1.5rem !important;
+    text-transform: uppercase;
+}
+
+.form-signin input[type="email"], .form-signup input[type="email"], .form-signin input[type="password"], .form-signup input[type="password"], .form-signin input[type="text"],
+ .form-signup input[type="text"], .form-signup select {
+    margin-bottom: 10px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.form-signin .form-control, .form-signup .form-control {
+    position: relative;
+    height: auto;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.form-signin-layout .link-section.forgot {
+    text-align: right;
+    padding-bottom: 10px;
+}
+
+.form-signin-layout .link-section, .form-signup-layout .link-section {
+    font-size: 18px !important;
+}
+
+.form-signin-layout .link-section .a-t, .form-signup-layout .link-section .a-t {
+    color: orange;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 19px;
+}
+
+.form-signin {
+    padding: 40px 15px 50px 15px;
+    margin-bottom: 100px;
+}
+
+.form-signin, .form-signup {
+    max-width: 440px;
+    margin: 0 auto;
+    text-align: center;
+    border: 5px solid #e08c0fba;
+    border-radius: 2rem;
+}
+
+.change-nav {
+    background-color: #222222;
+    border-color: #121212;
+}
+
+.navbar .navbar-nav .footer-color a {
+    color: #ddd7d7;
+    padding-top: 10px;
+    margin-right: 180px;
+}
+
+.form-signup {
+    padding: 40px 15px 60px 15px;
+    margin-bottom: 100px;
+}
+
+.form-signup .form-signup-heading {
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+
+nav.navbar-fixed-top ul.nav.navbar-nav.navbar-right>li>a {
+    color: #454C54;
+    font-weight: bold;
+    font-family: inherit;
+}
+
+ul.nav.navbar-nav.navbar-right>li>a {
+    color: #bfb9b9;
+    font-family: inherit;
+} 
+
+@media (min-width: 768px) {
+.navbar-nav>li>a {
+    padding-top: 14.5px;
+    padding-bottom: 14.5px;
+}
+}
+
+
+ul.nav.navbar-nav.navbar-right.header>li>a:hover, ul.nav.navbar-nav.navbar-right>li>a:focus {
+    text-decoration: none;
+    background-color: #e6e6e6;
+}
+
+
+.table.list>thead:first-child>tr:first-child>th>.add-std {
+    color: white;
+    text-decoration: none;
+    background-color: #E08C0F;
+    border-radius: 20px;
+    padding: 6px 10px;
+}
+
+
+.table.list>tbody>tr>td:last-child>.a-edit {
+    color: white !important;
+    background-color: #2780e3;
+    padding: 3px 10px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+button.a-edit {
+    background-color: transparent !important;
+    color: #2780e3 !important;
+    padding: 3px 10px;
+    border-radius: 5px;
+    border: 0px;
+}
+
+img.video-stream {
+    cursor: pointer;
+    width: 100px;
+    height: 100px;
+}
+
+label {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+
+@media (min-width:768px) {
+    .navbar>.container .navbar-brand,
+    .navbar>.container-fluid .navbar-brand {
+      margin-left: -15px;
+    }
+  }
+
+
