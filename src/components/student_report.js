@@ -44,15 +44,15 @@ class StudentReport extends Component {
       <div className="container pdTop50">
         <div className="row">
           <div className="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 col-lg-8 col-lg-offset-2">
-            <h1>Student Report</h1>
+            <h1>Applicant Report</h1>
             <Table>
               <thead>
                 <tr>
                   <th>Username</th>
                   <th>First Name</th>
                   <th>Last Name</th>
-                  <th>Lesson</th>
-                  <th>Score</th>
+                  <th>Portfolio</th>
+                  <th>Risk Score</th>
                   <th />
                 </tr>
               </thead>
