@@ -136,19 +136,7 @@ class Lessons extends React.Component {
                     <td>{`Portfolio ${data.value} (${data.text})`}</td>
 
                       <td>{data.score}</td>
-                    <td>
-                      <a
-                        href={`https://video.firstmovechess.org/?student_id=${user.id}&username=${username}&PlayVideo=lesson_${data.value}`}
-                        target="_blank"
-                        rel="noreferrer noopener"
-                      >
-                        <img
-                          src="../../images/poster.png"
-                          className="video-stream"
-                          alt=""
-                        />
-                      </a>
-                    </td>
+                    
                   </tr>
                 ))}
               </tbody>
