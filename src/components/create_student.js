@@ -55,13 +55,13 @@ class CreateStudent extends Component {
         <form onSubmit={handleSubmit(this.createStudent.bind(this))}>
 
             <Field
-            label="first name"
+            label="first"
             type="text"
             name="firstname"
             component={FormGroupFirstName}
           />
           <Field
-            label="last name"
+            label="last"
             type="text"
             name="lastname"
             component={FormGroupLastName}
