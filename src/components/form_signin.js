@@ -70,9 +70,9 @@ class FormSignin extends Component {
               {!this.props.authReducer.isSignin && this.props.authReducer.isSignin !== '' &&
                 <div style={{ color: 'red', fontSize: 14 }}> {this.props.authReducer.errorMsg}</div>
               }
-              {/*<button className="btn btn-lg btn-block signin-btn" type="submit">*/}
-                {/*ABCDEF*/}
-              {/*</button>*/}
+              <button className="btn btn-lg btn-block signin-btn" type="submit">
+                Sign in
+              </button>
               <br />
               <div className="link-section">
                 Don't have an account?{" "}

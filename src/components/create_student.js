@@ -49,7 +49,7 @@ class CreateStudent extends Component {
       <div className="container pdTop50">
         <div className="row">
           <div className="col-xs-12 col-sm-8 col-sm-offset-2">
-            <h1>Create New Student</h1>
+            <h1>Create New Applicant</h1>
           </div>
         </div>
         <form onSubmit={handleSubmit(this.createStudent.bind(this))}>
