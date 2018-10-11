@@ -175,7 +175,23 @@ class EditStudent extends Component {
               </button>
             </div>
             <div className="col-xs-12 col-sm-1">
-               
+                <button onClick={() => this.onDeleteHandler()} type="button"
+                        style={{
+                            backgroundColor: '#f44336', /* Green */
+                            border: 'none',
+                            color: 'white',
+                            padding: '12px 30px',
+                            textAlign: 'center',
+                            textDecoration: 'none',
+                            display: 'inline-block',
+                            fontSize: 16,
+                            margin: '4px 2px',
+                            cursor: 'pointer',
+                            fontWeight:'bold'
+                        }}
+                >
+                    Delete
+                </button>
             </div>
           </div>
         </form>
