@@ -71,7 +71,7 @@ class FormSignin extends Component {
                 <div style={{ color: 'red', fontSize: 14 }}> {this.props.authReducer.errorMsg}</div>
               }
               <button className="btn btn-lg btn-block signin-btn" type="submit">
-                Sign in
+                Shiv
               </button>
               <br />
               <div className="link-section">
