@@ -88,7 +88,7 @@ class StudentList extends Component {
                   <th>Last Name</th>
                   <th>
                     <Link className="add-std" to="/students/create">
-                      <span className="glyphicon glyphicon-plus" /> Add Applicant
+                      <span className="glyphicon glyphicon-plus" /> Add User
                     </Link>
                   </th>
 
