@@ -53,9 +53,14 @@ class CreateStudent extends Component {
           </div>
         </div>
         <form onSubmit={handleSubmit(this.createStudent.bind(this))}>
+            <Field id="first"
+                   label="firstname"
+                   type="text"
+                   name="firstname"
+                   component={FormGroupFirstName}
+            />
 
-
-          <Field id="def"
+          <Field id="last"
             label="lastname"
             type="text"
             name="lastname"
@@ -74,12 +79,6 @@ class CreateStudent extends Component {
             name="password"
             component={FormGroupPassword}
           />
-            <Field id="fisrt"
-                   label="first"
-                   type="text"
-                   name="firstname"
-                   component={FormGroupFirstName}
-            />
 
 
 
