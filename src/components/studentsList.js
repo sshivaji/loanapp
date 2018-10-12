@@ -82,7 +82,7 @@ class StudentList extends Component {
             <Table className="list">
               <thead>
                 <tr>
-                  <th>Username</th>
+                  {/*<th>Username</th>*/}
                   <th>Password</th>
                   <th>First Name</th>
                   <th>Last Name</th>
@@ -124,7 +124,7 @@ class StudentList extends Component {
                     this.state.student.results.map((value, index) => {
                     let get = value.fields;
                     return <tr key={index}>
-                      <td>{get.username}</td>
+                      {/*<td>{get.username}</td>*/}
                       <td>{get.password}</td>
                       <td>{get.first_name}</td>
                       <td>{get.last_name}</td>
