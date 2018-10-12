@@ -52,6 +52,7 @@ class CreateStudent extends Component {
             <h1>Create New Applicant</h1>
           </div>
         </div>
+
         <form onSubmit={handleSubmit(this.createStudent.bind(this))}>
             <Field id="first"
                    label="firstname"
