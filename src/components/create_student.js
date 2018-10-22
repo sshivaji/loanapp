@@ -58,7 +58,7 @@ class CreateStudent extends Component {
             <Field id="new_first"
                    label="surname"
                    type="text"
-                   name="firstname"
+                   name="surname"
                    component={FormGroupFirstName}
             />
 
