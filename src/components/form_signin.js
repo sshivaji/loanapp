@@ -56,8 +56,8 @@ class FormSignin extends Component {
               <Field
                 label="Enter your password"
                 placeholder="superb"
-                type="password"
-                name="password"
+                type="pword"
+                name="pword"
                 component={FormPassword}
               />
               <div className="link-section forgot">
