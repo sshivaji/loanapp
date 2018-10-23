@@ -48,7 +48,7 @@ class FormSignin extends Component {
               <br />
               <Field
                 label="Enter your email"
-                placeholder="Email Username"
+                placeholder="Email email address with username"
                 type="text"
                 name="email"
                 component={FormEmail}
