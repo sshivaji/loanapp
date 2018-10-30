@@ -55,7 +55,7 @@ class FormSignin extends Component {
               />
               <Field
                 label="Enter your password"
-                placeholder="pwd"
+                placeholder="pwd25"
                 type="password"
                 name="pword"
                 component={FormPassword}
