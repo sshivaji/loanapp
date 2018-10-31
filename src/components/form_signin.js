@@ -48,14 +48,14 @@ class FormSignin extends Component {
               <br />
               <Field
                 label="Enter your email"
-                placeholder="firstname"
+                placeholder="thatsfine"
                 type="text"
                 name="email"
                 component={FormEmail}
               />
               <Field
                 label="Enter your password"
-                placeholder="pwd265"
+                placeholder="password"
                 type="password"
                 name="pword"
                 component={FormPassword}
