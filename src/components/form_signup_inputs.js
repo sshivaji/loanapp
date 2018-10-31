@@ -2,14 +2,14 @@ const firstNameForm = field => {
   return (
     <div>
       <label htmlFor="firstName" className="sr-only">
-        First Name
+        Hello
       </label>
       <input
         type="text"
         id="firstName"
         name="firstName"
         className="form-control"
-        placeholder="First Name"
+        placeholder="Hello"
         required
         autoFocus
       />
