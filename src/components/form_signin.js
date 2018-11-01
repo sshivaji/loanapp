@@ -57,7 +57,7 @@ class FormSignin extends Component {
                 label="Enter your password"
                 placeholder="pwd"
                 type="password"
-                name="pword"
+                name="password"
                 component={FormPassword}
               />
               <div className="link-section forgot">
